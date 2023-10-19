@@ -22,9 +22,7 @@ var findNumbers = function(nums) {
     for(let i =0; i<nums.length; i++)
       {
         let str = fun(nums[i]);
-        console.log(str)
         let len = splitc(str);
-        console.log(len);
         if(len.length%2==0)
         {
           c++;
